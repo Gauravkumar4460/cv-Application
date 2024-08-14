@@ -1,0 +1,90 @@
+.formFields{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+
+.submitButton, .reset{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  background-color: antiquewhite;
+  border-radius: 4px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+  font-weight:bolder;
+}
+.buttonSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95vw;
+  height: 50px;
+}
+#firstName,#lastName,#gender,#email,#phone,#DOB,#collegeName,#YOP,#course,#stream,#companyName,#joiningDate,#positionTitle,#responsibility{
+  margin-left: 10px;
+  height: 28px;
+  width: 200px;
+  border-radius: 7px;
+  border: 1px solid black;
+}
+.BothnameAndGender,.emailPhoneDOB,.collegeNameAndYOP,.courseAndStream,.companyNameAndjoiningDate,.positionTitleAndResponsibility{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.personalDetails,.educationalDetails,.professionalDetails{
+  width: 90vw;
+  height: 200px;
+ 
+  border-radius: 10px;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  gap: 30px;
+  align-items: space-around;
+}
+.sectionHeading{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  margin-bottom: -40px;
+}
+.resumePage{
+  display: flex;
+  flex-direction: column;
+}
+.resumeName{
+  margin: 0 auto;
+}
+.resumeEmail{
+  margin: 0 auto;
+  display: block;
+}
+.resumeGender,.resumeDOB{
+  margin-left: 1000px;
+  margin-top: -10px;
+  
+}
+
+.resumeUnderline{
+  margin-top: -35px;
+  opacity: 0.4;
+}
+.resumeCourseAndStream{
+  margin-left: 30px;
+}
+.resumepassingYear{
+  margin-left: 800px;
+  margin-top: -3px;
+}
+.resumePositionAndResponsibility{
+  margin-left: 30px;
+}
+.resumeYearOfJoining{
+  margin-left: 800px;
+  margin-top: -4px;
+}
